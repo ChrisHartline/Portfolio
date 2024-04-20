@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Wallet Generator</title>
+</head>
+<body>
+    <h1>Bitcoin BIP32 Wallet Generator</h1>
+    <button id="generateWallet">Generate Wallet</button>
+    <h2>Wallet Details</h2>
+    <div id="walletDetails">
+        <p><strong>Address:</strong> <span id="walletAddress"></span></p>
+        <p><strong>Private Key:</strong> <span id="walletPrivateKey"></span></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bitcoinjs-lib/5.2.0/bitcoinjs.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
